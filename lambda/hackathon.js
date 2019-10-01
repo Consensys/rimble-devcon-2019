@@ -26,12 +26,11 @@ exports.handler = function(event, context, callback) {
     name: "Hackathon Token #" + tokenId,
     description: "Hackathon admission ticket for DevCon VI - #" + tokenId,
 
-    external_url: "https://admiring-franklin-e4c8b6.netlify.com/",
-    home_url: "https://admiring-franklin-e4c8b6.netlify.com/",
+    external_url: "https://rimble-devcon-demo.netlify.com/",
+    home_url: "https://rimble-devcon-demo.netlify.com/",
 
-    image: "https://admiring-franklin-e4c8b6.netlify.com/images/hackathon.jpg",
-    image_url:
-      "https://admiring-franklin-e4c8b6.netlify.com/images/hackathon.jpg",
+    image: "https://rimble-devcon-demo.netlify.com/images/hackathon.jpg",
+    image_url: "https://rimble-devcon-demo.netlify.com/images/hackathon.jpg",
 
     ...rarebitsData
   };
