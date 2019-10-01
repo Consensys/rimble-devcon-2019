@@ -22,7 +22,7 @@ module.exports = (deployer, helper, accounts) => {
         DevConAttendance,
         "DevCon VI Attendance",
         "DC6A",
-        metadata.address
+        attendanceMetadata.address
       );
       let devConAttendance = await DevConAttendance.deployed();
       console.log(
@@ -60,7 +60,7 @@ module.exports = (deployer, helper, accounts) => {
         DevConParties,
         "DevCon VI Parties",
         "DC6P",
-        metadata.address
+        partiesMetadata.address
       );
       let devConParties = await DevConParties.deployed();
       console.log(_ + "DevConParties deployed at: " + devConParties.address);

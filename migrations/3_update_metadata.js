@@ -30,11 +30,6 @@ module.exports = (deployer, helper, accounts) => {
       console.log(
         _ + "HackathonMetadata deployed at: " + hackathonMetadata.address
       );
-
-      // Deploy RimbleToken.sol
-      let rimbleToken = await RimbleToken.deployed();
-      console.log(_ + "RimbleToken deployed at: " + rimbleToken.address);
-
       // Deploy DevConAttendance.sol
       let devConAttendance = await DevConAttendance.deployed();
       console.log(
@@ -51,14 +46,10 @@ module.exports = (deployer, helper, accounts) => {
       let devConParties = await DevConParties.deployed();
       console.log(_ + "DevConParties deployed at: " + devConParties.address);
 
-      // Update the rimbleToken with the new metadata address
-      await rimbleToken.updateMetadata(metadata.address);
-      console.log(_ + "RimbleToken metadata updated to " + metadata.address);
-
       // Update the devConAttendance with the new metadata address
-      await devConAttendance.updateMetadata(metadata.address);
+      await devConAttendance.updateMetadata(attendanceMetadata.address);
       console.log(
-        _ + "DevConAttendance metadata updated to " + metadata.address
+        _ + "DevConAttendance metadata updated to " + attendanceMetadata.address
       );
 
       // Update the devConFood with the new metadata address
@@ -68,8 +59,10 @@ module.exports = (deployer, helper, accounts) => {
       );
 
       // Update the devConParties with the new metadata address
-      await devConParties.updateMetadata(metadata.address);
-      console.log(_ + "DevConParties metadata updated to " + metadata.address);
+      await devConParties.updateMetadata(partiesMetadata.address);
+      console.log(
+        _ + "DevConParties metadata updated to " + partiesMetadata.address
+      );
     } catch (error) {
       console.log(error);
     }

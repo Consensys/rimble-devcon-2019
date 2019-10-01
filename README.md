@@ -37,6 +37,14 @@ yarn deploy --network develop
 // this just runs truffle migrate --reset --compile-all
 ```
 
+# Serve contract meta data locally
+
+```
+npx netlify-lambda serve lambda
+```
+
+Open [http://localhost:9000/attendance?tokenId=1] in a browser to view the metadata
+
 # Rimble Front-End React app
 
 ```

@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 /**
-* AttendanceMetadata contract is upgradeable and returns metadata about RimbleToken
+* AttendanceMetadata contract is upgradeable and returns metadata about DevConAttendance token
 */
 
 import "./helpers/strings.sol";
@@ -9,7 +9,7 @@ contract AttendanceMetadata {
     using strings for *;
 
     function tokenURI(uint _tokenId) public pure returns (string memory _infoUrl) {
-        string memory base = "https://admiring-franklin-e4c8b6.netlify.com/.netlify/functions/attendance?tokenId=";
+        string memory base = "https://rimble-devcon-demo.netlify.com/.netlify/functions/attendance?tokenId=";
         string memory id = uint2str(_tokenId);
         return base.toSlice().concat(id.toSlice());
     }
