@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 /**
-* HackathonMetadata contract is upgradeable and returns metadata about RimbleToken
+* HackathonMetadata contract is upgradeable and returns metadata about DevConHackathon token
 */
 
 import "./helpers/strings.sol";

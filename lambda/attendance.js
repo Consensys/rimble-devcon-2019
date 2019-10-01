@@ -8,8 +8,8 @@ exports.handler = function(event, context, callback) {
     external_url: "https://rimble-devcon-demo.netlify.com/",
     home_url: "https://rimble-devcon-demo.netlify.com/",
 
-    image: "https://rimble-devcon-demo.netlify.com/images/attendance.jpg",
-    image_url: "https://rimble-devcon-demo.netlify.com/images/attendance.jpg"
+    image: "https://rimble-devcon-demo.netlify.com/images/conference.jpg",
+    image_url: "https://rimble-devcon-demo.netlify.com/images/conference.jpg"
   };
 
   const root = {

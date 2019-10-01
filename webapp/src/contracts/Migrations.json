@@ -13,8 +13,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x445df0ac"
+      "type": "function"
     },
     {
       "constant": true,
@@ -28,15 +27,13 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8da5cb5b"
+      "type": "function"
     },
     {
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor",
-      "signature": "constructor"
+      "type": "constructor"
     },
     {
       "constant": false,
@@ -50,8 +47,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xfdacd576"
+      "type": "function"
     },
     {
       "constant": false,
@@ -65,8 +61,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x0900f010"
+      "type": "function"
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610314806100606000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630900f01014610067578063445df0ac146100b85780638da5cb5b146100e3578063fdacd5761461013a575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610175565b005b3480156100c457600080fd5b506100cd61025d565b6040518082815260200191505060405180910390f35b3480156100ef57600080fd5b506100f8610263565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561014657600080fd5b506101736004803603602081101561015d57600080fd5b8101908080359060200190929190505050610288565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561025a5760008190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b15801561024057600080fd5b505af1158015610254573d6000803e3d6000fd5b50505050505b50565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102e557806001819055505b5056fea165627a7a72305820295247f1b410f4086be98b2096f1dc7ad5b5a05c6f80d578210f6cd2f5b9486f0029",
@@ -1375,8 +1370,8 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x16fF4485A25F7F3306d796602f38147564B6AB45",
-      "transactionHash": "0x7ee8c576b18421d373955a73b2c075670a7053cba8db618306ad6f2aa5264b3f"
+      "address": "0xe4ed36565E605a4480829700c3f2d1CB963E3063",
+      "transactionHash": "0x158cdc80167234ae5caad6dbcab6ad8a4e18f5a81de92433c3e61b5396b89311"
     },
     "4447": {
       "events": {},
@@ -1387,12 +1382,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x9955cb0B98f605f7eD2fc4d8156aEAc0579917eb",
-      "transactionHash": "0xfeb46a90e8e80d95c588c0faf5bae4ea0e89663db47bbbdea31225a220d222d3"
+      "address": "0x08AD5681a6B6C748C678175567B32A7EE7FE7597",
+      "transactionHash": "0x5c115eaeb9a6c41eb97f0f263cfa830293678b0f90a31cbabfb781ab5eba969a"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-10-01T16:37:39.283Z",
+  "updatedAt": "2019-10-01T21:40:15.452Z",
   "devdoc": {
     "methods": {}
   },

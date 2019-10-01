@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 /**
-* PartiesMetadata contract is upgradeable and returns metadata about RimbleToken
+* PartiesMetadata contract is upgradeable and returns metadata about DevConParites token
 */
 
 import "./helpers/strings.sol";

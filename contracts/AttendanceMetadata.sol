@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 /**
-* AttendanceMetadata contract is upgradeable and returns metadata about RimbleToken
+* AttendanceMetadata contract is upgradeable and returns metadata about DevConAttendance token
 */
 
 import "./helpers/strings.sol";
